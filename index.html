@@ -1,77 +1,66 @@
+
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
+<meta charset="UTF-8">
+<title>DIV and SPAN Example</title>
 
-    <meta charset="UTF-8">
+<style>
+body {
+    background-color: #121212;
+    font-family: Arial, sans-serif;
+    color: white;
+}
 
-    
+.container {
+    background-color: #1e1e2f;
+    border: 2px solid #a855f7;
+    padding: 20px;
+    margin: 25px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px #6b21a8;
+}
 
-    <title>DIV and SPAN Example 2</title>
+h2 {
+    color: #c084fc;
+}
 
-    <style>
-
-        .card {
-
-            border: 2px solid rgb(255, 235, 17);
-
-            background-color: #c6fffd;
-
-            padding: 20px;
-
-              margin: 20px;
-
-            border-radius: 8px;
-
-        }
-
-
-
-        .important {
-
-            color: rgb(217, 25, 0);
-
-            font-weight: bold;
-
-        }
-
-    </style>
-
+.highlight {
+    color: #00ffff;
+    font-weight: bold;
+    background-color: #292944;
+    padding: 4px;
+    border-radius: 4px;
+}
+</style>
 </head>
 
 <body>
 
+<div class="container">
+    <h2>DIV Element Example</h2>
 
+    <p>
+        The <strong>DIV</strong> element groups HTML
+        content into a separate block.
+    </p>
 
-    <div class="card">
+    <p>
+        This is a
+        <span class="highlight">glowing SPAN element</span>
+        inside a paragraph.
+    </p>
+</div>
 
-        <h2>Student Information</h2>
+<div class="container">
+    <h2>SPAN Element Example</h2>
 
-        <p>Name: <span class="important">Mohan prasanth D</span></p>
-
-        <p>Department: BCA</p>
-
-        <p>Status: <span class="important">Active</span></p>
-
-    </div>
-
-
-
-    <div class="card">
-
-        <h2>Course Details</h2>
-
-        <p>Course: Web Development</p>
-
-        <p>Duration: <span class="important">6 Months</span></p>
-
-        <p>Mode: Online</p>
-
-    </div>
-
-
+    <p>
+        The <span class="highlight">SPAN element</span>
+        styles specific words without creating a new block.
+    </p>
+</div>
 
 </body>
-
 </html>
+
